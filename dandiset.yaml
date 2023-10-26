@@ -12,7 +12,7 @@ assetsSummary:
   schemaKey: AssetsSummary
 citation: Perich, Matthew G.; Miller, Lee E.; Azabou, Mehdi; Dyer, Eva L. (2023) Long-term
   recordings of motor and premotor cortical spiking activity during reaching in monkeys
-  (Version draft) [Data set]. DANDI archive. https://doi.org/10.80507/dandi.123456/0.123456.1234
+  (Version draft) [Data set]. DANDI archive. https://dandiarchive.org/dandiset/000688/draft
 contributor:
 - affiliation: []
   email: matthew.perich@umontreal.ca
@@ -49,7 +49,6 @@ contributor:
   roleName: []
   schemaKey: Person
 dateCreated: '2023-10-19T20:06:41.315772+00:00'
-datePublished: '2023-10-19T20:28:19.421856+00:00'
 description: This dataset contains electrophysiology and behavioral data from three
   macaques performing either a center-out task or a continuous random target acquisition
   task. Neural activity was recorded from chronically-implanted electrode arrays in
@@ -58,7 +57,6 @@ description: This dataset contains electrophysiology and behavioral data from th
   The data contains spiking activity—manually spike sorted in three subjects, and
   threshold crossings in the fourth subject—obtained from up to 192 electrodes per
   session, cursor position and velocity, and other task related metadata.
-doi: 10.80507/dandi.123456/0.123456.1234
 ethicsApproval: []
 id: DANDI:000688/draft
 identifier: DANDI:000688
@@ -70,30 +68,17 @@ manifestLocation:
 name: Long-term recordings of motor and premotor cortical spiking activity during
   reaching in monkeys
 protocol: []
-publishedBy:
-  endDate: '2023-10-19T20:28:19.421856+00:00'
-  id: urn:uuid:94d76ca2-532b-4a44-a0c2-a3147bd64722
-  name: DANDI publish
-  schemaKey: PublishActivity
-  startDate: '2023-10-19T20:28:19.421856+00:00'
-  wasAssociatedWith:
-  - id: urn:uuid:130f37b1-9413-476b-94cb-dea7f3c7d751
-    identifier: RRID:SCR_017571
-    name: DANDI API
-    schemaKey: Software
-    version: 0.1.0
 relatedResource:
 - identifier: DOI:10.1016/j.neuron.2018.09.030
   name: A Neural Population Mechanism for Rapid Learning
   relation: dcite:IsDescribedBy
   schemaKey: Resource
   url: https://pubmed.ncbi.nlm.nih.gov/30344047/
-- identifier: DOI:10.1038/s41467-018-04062-6
-  name: Population coding of conditional probability distributions in dorsal premotor
-    cortex
-  relation: dcite:IsDescribedBy
+- identifier: DOI:10.48550/arXiv.2310.16046
+  name: A Unified, Scalable Framework for Neural Population Decoding
+  relation: dcite:IsCitedBy
   schemaKey: Resource
-  url: https://pubmed.ncbi.nlm.nih.gov/29725023/
+  url: https://arxiv.org/abs/2310.16046
 - identifier: DOI:10.1007/s00221-017-4997-1
   name: Altered tuning in primary motor cortex does not account for behavioral adaptation
     during force field learning
@@ -106,6 +91,12 @@ relatedResource:
   relation: dcite:IsCitedBy
   schemaKey: Resource
   url: https://pubmed.ncbi.nlm.nih.gov/31907438/
+- identifier: DOI:10.1038/s41467-018-04062-6
+  name: Population coding of conditional probability distributions in dorsal premotor
+    cortex
+  relation: dcite:IsDescribedBy
+  schemaKey: Resource
+  url: https://pubmed.ncbi.nlm.nih.gov/29725023/
 repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.6.4
