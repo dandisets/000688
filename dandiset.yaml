@@ -10,9 +10,9 @@ assetsSummary:
   numberOfBytes: 0
   numberOfFiles: 0
   schemaKey: AssetsSummary
-citation: Perich, Matthew G.; Miller, Lee E.; Azabou, Mehdi; Dyer, Eva L. (2023) Long-term
+citation: Perich, Matthew G.; Miller, Lee E.; Azabou, Mehdi; Dyer, Eva L. (2024) Long-term
   recordings of motor and premotor cortical spiking activity during reaching in monkeys
-  (Version draft) [Data set]. DANDI archive. https://dandiarchive.org/dandiset/000688/draft
+  (Version draft) [Data set]. DANDI archive. https://doi.org/10.80507/dandi.123456/0.123456.1234
 contributor:
 - affiliation: []
   email: matthew.perich@umontreal.ca
@@ -42,13 +42,14 @@ contributor:
   schemaKey: Person
   url: https://www.mehai.dev/
 - affiliation: []
-  email: ''
+  email: evadyer@gatech.edu
   identifier: 0000-0002-6962-524X
   includeInCitation: true
   name: Dyer, Eva L.
   roleName: []
   schemaKey: Person
 dateCreated: '2023-10-19T20:06:41.315772+00:00'
+datePublished: '2024-02-05T00:12:53.350848+00:00'
 description: This dataset contains electrophysiology and behavioral data from three
   macaques performing either a center-out task or a continuous random target acquisition
   task. Neural activity was recorded from chronically-implanted electrode arrays in
@@ -57,6 +58,7 @@ description: This dataset contains electrophysiology and behavioral data from th
   The data contains spiking activity—manually spike sorted in three subjects, and
   threshold crossings in the fourth subject—obtained from up to 192 electrodes per
   session, cursor position and velocity, and other task related metadata.
+doi: 10.80507/dandi.123456/0.123456.1234
 ethicsApproval: []
 id: DANDI:000688/draft
 identifier: DANDI:000688
@@ -68,6 +70,18 @@ manifestLocation:
 name: Long-term recordings of motor and premotor cortical spiking activity during
   reaching in monkeys
 protocol: []
+publishedBy:
+  endDate: '2024-02-05T00:12:53.350848+00:00'
+  id: urn:uuid:74c01a0b-d2c2-4499-a0f7-19b60547f05b
+  name: DANDI publish
+  schemaKey: PublishActivity
+  startDate: '2024-02-05T00:12:53.350848+00:00'
+  wasAssociatedWith:
+  - id: urn:uuid:66c7d6a5-a44a-45e6-ae22-06c539e1fe55
+    identifier: RRID:SCR_017571
+    name: DANDI API
+    schemaKey: Software
+    version: 0.1.0
 relatedResource:
 - identifier: DOI:10.1016/j.neuron.2018.09.030
   name: A Neural Population Mechanism for Rapid Learning
