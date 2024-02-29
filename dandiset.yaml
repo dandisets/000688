@@ -25,13 +25,16 @@ assetsSummary:
     schemaKey: MeasurementTechniqueType
   - name: surgical technique
     schemaKey: MeasurementTechniqueType
-  numberOfBytes: 4943452492
-  numberOfFiles: 42
-  numberOfSubjects: 1
+  numberOfBytes: 12010666130
+  numberOfFiles: 107
+  numberOfSubjects: 4
   schemaKey: AssetsSummary
   species:
   - identifier: http://purl.obolibrary.org/obo/NCBITaxon_9544
     name: Macaca mulatta - Rhesus monkey
+    schemaKey: SpeciesType
+  - identifier: http://purl.obolibrary.org/obo/NCBITaxon_9541
+    name: Macaca fascicularis - Cynomolgus monkeys
     schemaKey: SpeciesType
   variableMeasured:
   - Units
