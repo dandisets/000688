@@ -19,30 +19,30 @@ assetsSummary:
   measurementTechnique:
   - name: spike sorting technique
     schemaKey: MeasurementTechniqueType
-  - name: behavioral technique
+  - name: surgical technique
     schemaKey: MeasurementTechniqueType
   - name: analytical technique
     schemaKey: MeasurementTechniqueType
-  - name: surgical technique
+  - name: behavioral technique
     schemaKey: MeasurementTechniqueType
-  numberOfBytes: 12010666130
-  numberOfFiles: 107
+  numberOfBytes: 12238349474
+  numberOfFiles: 103
   numberOfSubjects: 4
   schemaKey: AssetsSummary
   species:
-  - identifier: http://purl.obolibrary.org/obo/NCBITaxon_9544
-    name: Macaca mulatta - Rhesus monkey
-    schemaKey: SpeciesType
   - identifier: http://purl.obolibrary.org/obo/NCBITaxon_9541
     name: Macaca fascicularis - Cynomolgus monkeys
     schemaKey: SpeciesType
+  - identifier: http://purl.obolibrary.org/obo/NCBITaxon_9544
+    name: Macaca mulatta - Rhesus monkey
+    schemaKey: SpeciesType
   variableMeasured:
+  - ProcessingModule
+  - SpatialSeries
   - Units
   - Position
   - ElectrodeGroup
-  - SpatialSeries
   - BehavioralTimeSeries
-  - ProcessingModule
 citation: Perich, Matthew G.; Miller, Lee E.; Azabou, Mehdi; Dyer, Eva L. (2024) Long-term
   recordings of motor and premotor cortical spiking activity during reaching in monkeys
   (Version draft) [Data set]. DANDI archive. https://doi.org/10.80507/dandi.123456/0.123456.1234
